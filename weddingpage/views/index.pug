@@ -1,8 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  h2 29 juni 2019
-  p S:a Maria kyrka, Ystad
-  p Tranåsgården, Skåne Tranås
-  img(src="../images/decoration/5q-small.png", alt="decoration")
+  #info
+    h1.us= title
+    h1 29 juni 2019
+    p S:a Maria kyrka, Ystad
+    p Tranåsgården, Skåne Tranås
+    #portrait
+        ul.gallery
+            li.pic
+              img(src="../images/photos/portrait-001.jpg", alt="Portrait")
+            li.pic
+              img(src="../images/photos/portrait-002.jpg", alt="Portrait")
+    img(src="../images/decoration/5q-small.png", alt="decoration")
