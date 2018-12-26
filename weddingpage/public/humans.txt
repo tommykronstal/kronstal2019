@@ -1,0 +1,20 @@
+/* TEAM */
+   
+Developer: Tommy Kronstål
+Producer: Anni Clementson                            
+
+Site: kronstal.se
+
+Location: Skåne, Sweden
+	                            
+/* SITE */
+
+Last update: 2018/12/26
+
+Why: To provide information about our upcoming wedding
+
+How: Fully developed, deployed and hosted by the team
+
+Standards: HTML5, CSS3,..
+
+Software: Express Js, Pug
