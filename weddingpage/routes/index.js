@@ -6,9 +6,19 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Anni & Tommy' });
 });
 
-/* GET home page. */
+/* GET maps page. */
 router.get('/maps', function(req, res, next) {
   res.render('maps', { title: 'Kartor' });
+});
+
+/* GET accomodation page. */
+router.get('/accomodation', function(req, res, next) {
+  res.render('accomodation', { title: 'Boende' });
+});
+
+/* GET registry page. */
+router.get('/registry', function(req, res, next) {
+  res.render('registry', { title: 'Önskelista' });
 });
 
 module.exports = router;

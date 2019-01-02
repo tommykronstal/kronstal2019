@@ -14,7 +14,7 @@ a {
 
 .us {
   font-size: 78px;
-  margin: 8px;
+  margin: 30px;
 }
 
 #info {
@@ -72,20 +72,24 @@ ul {
 }
 
 #links {
-  margin: 0px;
+  position: fixed;
+  margin-top: 0px;
   padding: 0px;
   font-size: 32px;
+  z-index: 10;
+  /*background: beige;*/
   /* background-color: #a5c8ad; */
 }
 
 #links a {
   text-decoration: none;
-  font-size: 5vw;
-  opacity: 0.7;
+  font-size: 4vw;
+  /*opacity: 0.7;*/
 }
 
 #links a:hover {
-  transition: .7s ease;
+  color:#579060;
+  /*transition: .5s ease;*/
   opacity: 1;
 }
 
