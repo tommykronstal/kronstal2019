@@ -21,4 +21,9 @@ router.get('/registry', function(req, res, next) {
   res.render('registry', { title: 'Önskelista' });
 });
 
+/* GET other page. */
+router.get('/other', function(req, res, next) {
+  res.render('other', { title: 'Övrigt' });
+});
+
 module.exports = router;
