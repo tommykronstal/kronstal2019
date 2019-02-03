@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Anni & Tommy' });
 });
 
-/* GET maps page. */
-router.get('/maps', function(req, res, next) {
-  res.render('maps', { title: 'Kartor' });
+/* GET map page. */
+router.get('/map', function(req, res, next) {
+  res.render('map', { title: 'Kartor' });
 });
 
 /* GET accomodation page. */
